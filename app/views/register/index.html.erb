@@ -1,0 +1,83 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title><% @title= "Rails With ReactJS" %></title>
+
+    <%= javascript_include_tag "jquery.js" %>
+    <%= javascript_include_tag "bootstrap.js" %>
+    <%= javascript_include_tag "reactJS/React" %>
+    <%= javascript_include_tag "reactJS/browser.min" %>
+    <%= javascript_include_tag "sample" %>
+    <%= javascript_include_tag "ie10-viewport-bug-workaround" %>
+    <%= javascript_include_tag "ie-emulation-modes-warning" %>
+
+    <%= stylesheet_link_tag "bootstrap.css" %>
+    <%= stylesheet_link_tag "ie10-viewport-bug-workaround" %>
+    <%= stylesheet_link_tag "jumbotron" , :rel => "stylesheet" %>
+
+
+</head>
+
+<body>
+
+<div class="row">
+
+</div>
+
+<%= javascript_include_tag "reactJS/workingreact/working" ,:type => "text/babel" %>
+
+
+    <div id="nav">
+
+
+    </div>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Project name</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <form class="navbar-form navbar-right">
+                    <div class="form-group">
+                        <input type="text" placeholder="Email" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" placeholder="Password" class="form-control">
+                    </div>
+                    <button type="submit" class="btn btn-success">Sign in</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div class="jumbotron">
+        <div class="container" id="reacttest">
+
+
+        </div>
+    </div>
+
+    <div id="contain">
+
+
+    </div>
+
+</body>
+</html>
+
+
+
+
